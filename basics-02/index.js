@@ -132,3 +132,68 @@ console.log("Chaliye shuru karte hai");
 // for(let key of Object.entries(rectangle)){
 //     console.log(key);
 // }
+
+
+
+// let rectangle = {
+//     length : 2,
+//     breadth : 4,
+// }
+
+// if ('color' in rectangle) {
+//     console.log('present');
+// } else {
+//     console.log('absent');
+    
+// }
+
+
+
+
+//// object cloning
+
+
+///using iteration---->01
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
+// let dest = {};
+// for (let key in src) {
+//     dest[key] = src[key];
+// }
+// console.log(dest);
+// src.a++;
+// console.log(src);
+
+
+///using     ------>02
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
+// let src1 = {
+//     value:100
+// }
+// let dest = Object.assign({}, src, src1);
+// src.a++;
+// console.log(dest);
+
+
+///using    ----->03
+// let src = {
+//     a:10,
+//     b:20,
+//     c:30
+// }
+// let dest = {...src}
+// console.log(dest);
+// src.a++;
+// console.log(dest);
+
+
+
+
+
